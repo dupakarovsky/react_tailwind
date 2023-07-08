@@ -1,0 +1,31 @@
+{
+   "name": "001_button_tailwinds",
+   "version": "1.0.0",
+   "description": "React and Tailwind",
+   "main": "src/main.jsx",
+   "scripts": {
+      "dev": "vite",
+      "build": "vite build --outDir ../dist",
+      "prev": "vite preview --outDir ../dist"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.2",
+      "autoprefixer": "^10.4.14",
+      "eslint": "^8.44.0",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-jsx-a11y": "^6.7.1",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "postcss": "^8.4.25",
+      "tailwindcss": "^3.3.2",
+      "vite": "^4.4.2"
+   },
+   "dependencies": {
+      "classnames": "^2.3.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+   }
+}
